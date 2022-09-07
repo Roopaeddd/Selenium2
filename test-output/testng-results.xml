@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-01T12:00:23 IST" name="test1 by groups" finished-at="2022-09-01T12:00:23 IST" duration-ms="81">
+    <groups>
+      <group name="bvt">
+        <method signature="Groupdemotest.btest3()[pri:0, instance:Ui.Groupdemotest@47faa49c]" name="btest3" class="Ui.Groupdemotest"/>
+        <method signature="Groupdemotest.btest4()[pri:0, instance:Ui.Groupdemotest@47faa49c]" name="btest4" class="Ui.Groupdemotest"/>
+        <method signature="Groupdemotest2.btest3()[pri:0, instance:Ui.Groupdemotest2@1da2cb77]" name="btest3" class="Ui.Groupdemotest2"/>
+        <method signature="Groupdemotest2.btest4()[pri:0, instance:Ui.Groupdemotest2@1da2cb77]" name="btest4" class="Ui.Groupdemotest2"/>
+      </group> <!-- bvt -->
+      <group name="user-registration">
+        <method signature="Groupdemotest.atest1()[pri:1, instance:Ui.Groupdemotest@47faa49c]" name="atest1" class="Ui.Groupdemotest"/>
+        <method signature="Groupdemotest.btest2()[pri:2, instance:Ui.Groupdemotest@47faa49c]" name="btest2" class="Ui.Groupdemotest"/>
+        <method signature="Groupdemotest.btest3()[pri:0, instance:Ui.Groupdemotest@47faa49c]" name="btest3" class="Ui.Groupdemotest"/>
+        <method signature="Groupdemotest.btest4()[pri:0, instance:Ui.Groupdemotest@47faa49c]" name="btest4" class="Ui.Groupdemotest"/>
+      </group> <!-- user-registration -->
+      <group name="regression">
+        <method signature="Groupdemotest.atest1()[pri:1, instance:Ui.Groupdemotest@47faa49c]" name="atest1" class="Ui.Groupdemotest"/>
+        <method signature="Groupdemotest.btest2()[pri:2, instance:Ui.Groupdemotest@47faa49c]" name="btest2" class="Ui.Groupdemotest"/>
+        <method signature="Groupdemotest.btest3()[pri:0, instance:Ui.Groupdemotest@47faa49c]" name="btest3" class="Ui.Groupdemotest"/>
+        <method signature="Groupdemotest2.atest1()[pri:1, instance:Ui.Groupdemotest2@1da2cb77]" name="atest1" class="Ui.Groupdemotest2"/>
+        <method signature="Groupdemotest2.btest2()[pri:2, instance:Ui.Groupdemotest2@1da2cb77]" name="btest2" class="Ui.Groupdemotest2"/>
+        <method signature="Groupdemotest2.btest3()[pri:0, instance:Ui.Groupdemotest2@1da2cb77]" name="btest3" class="Ui.Groupdemotest2"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2022-09-01T12:00:23 IST" name="GRP-bvt,user-registration,regression" finished-at="2022-09-01T12:00:23 IST" duration-ms="81">
+      <class name="Ui.Groupdemotest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Ui.Groupdemotest@47faa49c]" started-at="2022-09-01T12:00:23 IST" name="beforeClass" finished-at="2022-09-01T12:00:23 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="btest3()[pri:0, instance:Ui.Groupdemotest@47faa49c]" started-at="2022-09-01T12:00:23 IST" name="btest3" finished-at="2022-09-01T12:00:23 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest3 -->
+        <test-method is-config="true" signature="beforeGroup()[pri:0, instance:Ui.Groupdemotest@47faa49c]" started-at="2022-09-01T12:00:23 IST" name="beforeGroup" finished-at="2022-09-01T12:00:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeGroup -->
+        <test-method signature="btest4()[pri:0, instance:Ui.Groupdemotest@47faa49c]" started-at="2022-09-01T12:00:23 IST" name="btest4" finished-at="2022-09-01T12:00:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest4 -->
+        <test-method signature="atest1()[pri:1, instance:Ui.Groupdemotest@47faa49c]" started-at="2022-09-01T12:00:23 IST" name="atest1" finished-at="2022-09-01T12:00:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atest1 -->
+        <test-method signature="btest2()[pri:2, instance:Ui.Groupdemotest@47faa49c]" started-at="2022-09-01T12:00:23 IST" name="btest2" finished-at="2022-09-01T12:00:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest2 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Ui.Groupdemotest@47faa49c]" started-at="2022-09-01T12:00:23 IST" name="afterClass" finished-at="2022-09-01T12:00:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterGroup()[pri:0, instance:Ui.Groupdemotest@47faa49c]" started-at="2022-09-01T12:00:23 IST" name="afterGroup" finished-at="2022-09-01T12:00:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterGroup -->
+      </class> <!-- Ui.Groupdemotest -->
+      <class name="Ui.Groupdemotest2">
+        <test-method signature="btest3()[pri:0, instance:Ui.Groupdemotest2@1da2cb77]" started-at="2022-09-01T12:00:23 IST" name="btest3" finished-at="2022-09-01T12:00:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest3 -->
+        <test-method signature="btest4()[pri:0, instance:Ui.Groupdemotest2@1da2cb77]" started-at="2022-09-01T12:00:23 IST" name="btest4" finished-at="2022-09-01T12:00:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest4 -->
+        <test-method signature="atest1()[pri:1, instance:Ui.Groupdemotest2@1da2cb77]" started-at="2022-09-01T12:00:23 IST" name="atest1" finished-at="2022-09-01T12:00:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atest1 -->
+        <test-method signature="btest2()[pri:2, instance:Ui.Groupdemotest2@1da2cb77]" started-at="2022-09-01T12:00:23 IST" name="btest2" finished-at="2022-09-01T12:00:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest2 -->
+      </class> <!-- Ui.Groupdemotest2 -->
+    </test> <!-- GRP-bvt,user-registration,regression -->
+  </suite> <!-- test1 by groups -->
+</testng-results>
